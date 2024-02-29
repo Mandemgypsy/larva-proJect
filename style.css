@@ -1,0 +1,24 @@
+nav {
+    /* border: 1px; */
+    height: 100px;
+    width: 1450px;
+background-color: white;
+}
+.btn {
+    font-size: 15px;
+    margin-left: 85%;
+    border: 1px;
+    height: 61px;
+    width: 162px;
+    background-color: orange;
+    border-radius: 8px;
+    margin-top: 2%;
+    font-weight: bold;
+    color: white;
+}
+.btn {
+    background-color: orange;
+}
+.btn:hover {
+    background-color: black;
+}
