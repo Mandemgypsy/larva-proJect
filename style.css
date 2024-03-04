@@ -97,6 +97,9 @@ nav {
     width: 100vw;
     background-color: lightgray;
     display: flex;
+    background-image: url(bgbg.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
 }
 
 @media (max-width: 768px) {
@@ -107,6 +110,9 @@ nav {
         background-color: lightgray;
         display: grid;
         grid-template-columns: auto;
+        background-image: url(bgbg.jpg);
+        background-repeat: no-repeat;
+        background-size: 100vw;
     }
 }
 
@@ -206,11 +212,18 @@ button:hover {
     border-color: black;
 }
 
+.imageMan{
+    height: 490px;
+    width: 350px;
+    margin-left: 80px;
+    margin-top: 30px;
+}
+
 .larvaMan {
     height: 490px;
     width: 310px;
-    margin-left: 80px;
-    margin-top: 30px;
+    /* margin-left: 80px;
+    margin-top: 30px; */
 }
 
 @media (max-width: 768px) {
@@ -381,3 +394,75 @@ button:hover {
         text-align: center;
     }
 }
+
+
+/* DEWUNMI ASPECT */
+
+button{
+    background-color: #f39821;
+    color: white;
+    border: none;
+    height: 40px;
+    width: 105px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: opacity 0.15s;
+    font-weight: 500;
+    padding: 10px;
+    font-family: "Raleway", sans-serif;
+    text-align: center;
+    margin-left: 45px;
+    margin-top: 30px;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+    background-color: black;
+  }
+  
+  .mainDiv{
+    margin-bottom: 20px; 
+    border-radius: 30px; 
+    border-width: 1px;
+    display:flex;
+    flex-direction: row;
+    margin-left: 20px;
+    padding-top: 30px;
+  }
+  
+  .word1 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 31px;
+    margin-top: -20px;
+    justify-self: center;
+    color: #f39821;
+    font-weight: 800;
+    margin-left: -15px;
+    text-align: center;
+  }
+  
+  
+  .boxCover:hover {
+    box-shadow: black;
+    transform: scale(1.1);
+    transition: 1s;
+    background-color: black;
+    box-shadow: 1px 1px 1px 1px;
+  }
+  
+  .price {
+    font-family: "Raleway", Sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 20px;
+    margin-left: 5px;
+    text-align: center;
+  }
+  
+  .duration {
+    font-family: "Raleway", Sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 5px;
+    text-align: center;
+  }
